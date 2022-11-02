@@ -1,6 +1,6 @@
 # SuperArrayTesterBasic
 
-The output of SuperArrayTester.java should be:
+The output of `SuperArrayTester.java` should be:
 ``` 
 1. PASS Empty List
 2. PASS Add a few values
@@ -10,4 +10,4 @@ The output of SuperArrayTester.java should be:
 6. PASS Test get/set
 ```
 
-The SuperArrayException tester must be completed by you to verify your exceptions happen when appropriate.
+The `SuperArrayExceptionTester.java` tester must be completed by you to verify your exceptions happen when appropriate.
