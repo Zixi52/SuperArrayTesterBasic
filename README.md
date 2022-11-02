@@ -7,4 +7,7 @@ The output of SuperArrayTester.java should be:
 3. PASS Add MANY values
 4. PASS Add values to front and middle, with resizing
 5. PASS Add with resizing. Remove values to front end and middle.
-6. PASS Test get/set```
+6. PASS Test get/set
+```
+
+The SuperArrayException tester must be completed by you to verify your exceptions happen when appropriate.
