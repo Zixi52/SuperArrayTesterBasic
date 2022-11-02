@@ -1,7 +1,8 @@
 # SuperArrayTesterBasic
 
 The output of SuperArrayTester.java should be:
-```1. PASS Empty List
+``` 
+1. PASS Empty List
 2. PASS Add a few values
 3. PASS Add MANY values
 4. PASS Add values to front and middle, with resizing
