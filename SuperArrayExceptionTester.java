@@ -14,7 +14,7 @@ public class SuperArrayExceptionTester{
     String testName;
     SuperArray list;
 
-    //Test1: get -1
+    //Test1: get negative index
     testNum++;
     testName = "get out of bounds -1";
     list = init();
@@ -23,6 +23,8 @@ public class SuperArrayExceptionTester{
         System.out.println(testNum+". FAIL! No exception thrown "+testName);
     }catch(IndexOutOfBoundsException e){
       System.out.println(testNum+". PASS "+testName);
+    }catch(Exception e){
+      System.out.println(testNum+". FAIL! wrong exception thrown "+testName);
     }
 
     //Test2: get size
@@ -34,18 +36,25 @@ public class SuperArrayExceptionTester{
         System.out.println(testNum+". FAIL! No exception thrown "+testName);
     }catch(IndexOutOfBoundsException e){
       System.out.println(testNum+". PASS "+testName);
+    }catch(Exception e){
+      System.out.println(testNum+". FAIL! wrong exception thrown "+testName);
     }
 
-    //Test3: set -1
+    //Test3: set negative index
 
-    //Test4: set size()
+    //Test4: set size() index
 
-    //Test5: add(-1,value)
+    //Test5: add negative index
 
-    //Test6: add(size()+1,value)
+    //Test6: add size()+1 index
+    
+    //Test7: remove negative index
 
-    //Test7: constructor(-1 size)
-    //BE CAREFUL! Which exception is expected?
+    //Test8: remove size() index
+
+    //Test9: constructor negative capacity
+    
+    
 
 
 
