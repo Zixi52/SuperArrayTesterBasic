@@ -41,22 +41,11 @@ public class SuperArrayExceptionTester{
     }
 
     //Test3: set negative index
-
     //Test4: set size() index
-
     //Test5: add negative index
-
     //Test6: add size()+1 index
-    
     //Test7: remove negative index
-
     //Test8: remove size() index
-
     //Test9: constructor negative capacity
-    
-    
-
-
-
   }
 }
