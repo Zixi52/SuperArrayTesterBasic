@@ -16,7 +16,7 @@ public class SuperArrayExceptionTester{
 
     //Test1: get negative index
     testNum++;
-    testName = "get out of bounds -1";
+    testName = "get -1 [IndexOutOfBoundsException]";
     list = init();
     try{
         list.get(-1);
@@ -29,7 +29,7 @@ public class SuperArrayExceptionTester{
 
     //Test2: get size
     testNum++;
-    testName = "get out of bounds size()";
+    testName = "get size() [IndexOutOfBoundsException]";
     list = init();
     try{
         list.get(list.size());
@@ -40,12 +40,12 @@ public class SuperArrayExceptionTester{
       System.out.println(testNum+". FAIL! wrong exception thrown "+testName);
     }
 
-    //Test3: set negative index
-    //Test4: set size() index
-    //Test5: add negative index
-    //Test6: add size()+1 index
-    //Test7: remove negative index
-    //Test8: remove size() index
-    //Test9: constructor negative capacity
+    //Test3: set negative index [IndexOutOfBoundsException]
+    //Test4: set size() index [IndexOutOfBoundsException]
+    //Test5: add negative index [IndexOutOfBoundsException]
+    //Test6: add size()+1 index [IndexOutOfBoundsException]
+    //Test7: remove negative index [IndexOutOfBoundsException]
+    //Test8: remove size() index [IndexOutOfBoundsException]
+    //Test9: constructor negative capacity [IllegalArgumentException]
   }
 }
